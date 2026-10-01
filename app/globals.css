@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #e50914;
+}
+
+html,
+body {
+  @apply m-0 min-h-full bg-black text-white;
+}
+
+@media (min-width: 1024px) {
+  html,
+  body {
+    @apply h-full overflow-hidden;
+  }
+}
